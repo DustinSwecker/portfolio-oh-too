@@ -1,0 +1,21 @@
+.homecards {
+    background-color: #5885AF;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+}
+
+.chips {
+    background-color: #C3E0E5;
+}
+
+#card1header {
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+#fullstack {
+    max-height: 300px;
+    width: auto;
+}

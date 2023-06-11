@@ -21,7 +21,7 @@
 }
 
 #selfpic:hover {
-    margin-left: 10px;
+    margin-left: 10px 0px;
     transform: scale(1.1);
 }
 
@@ -92,3 +92,17 @@
 }
 
 
+@media screen and (max-width: 768px) {
+    #selfpic {
+        min-width: 100px;
+    }
+    #brand {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    #brand {
+        font-size: 1.3rem;
+    }
+}
