@@ -1,0 +1,26 @@
+#footercontainer {
+    
+    margin: 10px 0px;
+    background-color: #759FB1;
+    height: fit-content;
+    border-top: solid black;
+    border-bottom: solid black;
+}
+
+#copyright {
+    font-family: Righteous, cursive;
+    font-size: 1.0rem;
+}
+
+#socialfooter {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+@media screen and (max-width: 768px) {
+    #copyright {
+        font-size: 0.8rem;
+    }
+}
