@@ -1,0 +1,94 @@
+#navcontainer {
+    display: flex;
+    background-color: #759FB1;
+    border-bottom: solid black;
+    border-top: solid black;
+    
+}
+
+#portfolio {
+    margin-left: 5%;
+}
+
+#selfpic {
+    width: 20%;
+    min-width: 150px;
+    height: auto;
+    float: left;
+    margin-top: 10%;
+    transform: skewY(-3deg);
+    filter: drop-shadow(10px 10px 10px #274472);
+}
+
+#selfpic:hover {
+    margin-left: 10px;
+    transform: scale(1.1);
+}
+
+@keyframes colortransition {
+    0%   {color: black; text-shadow: #41729F 1px 0 10px}
+    25%  {color: black; text-shadow: #5885AF 3px 0 10px}
+    50%  {color: white; text-shadow: #274472 4px 0 15px}
+    100% {color: white; text-shadow: #C3E0E5 5px 0 10px}
+  }
+
+#brand {
+    
+    display: flex;
+    font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+    text-shadow: #274472 1px 0 5px;
+    animation-name: colortransition;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+     
+}
+#brand:hover {
+    transform: scale(1.1);
+}
+#navitems {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navitem {
+    font-family: 'Lobster', cursive;
+    font-size: 1.2rem;
+    width: fit-content;
+    
+}
+
+.navitem:hover {
+    
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    background-color: #41729F;
+    transform: scale(1.1)
+}
+
+.socials {
+    display: flex;
+    width: fit-content;
+    justify-content: space-between;    
+    margin-top: 20px;
+}
+
+#github:hover {
+    opacity: 90%;
+    filter: drop-shadow(2px 2px 2px #274472);
+}
+
+#linkedin:hover {
+    opacity: 90%;
+    filter: drop-shadow(2px 2px 2px #274472);
+}
+#twitter:hover {
+    opacity: 90%;
+    filter: drop-shadow(2px 2px 2px #274472);
+}
+#email:hover {
+    opacity: 90%;
+    filter: drop-shadow(2px 2px 2px #274472);
+}
+
+
